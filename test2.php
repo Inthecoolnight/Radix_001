@@ -8,10 +8,8 @@
     <script type="module" src="main.js"></script>
 </head>
 
-<body class="prueba">
-    <span>Hello world</span>
-            <radix-connect-button></radix-connect-button>
-    <span>Bye world</span>
+<body>
+      <radix-connect-button></radix-connect-button>
 </body>
 </html>
 
@@ -20,9 +18,6 @@ body {
     --radix-connect-button-width: 138px;
     --radix-connect-button-height: 40px;
     --radix-connect-button-border-radius: 10px;
-}
-.prueba{
-    color: red;
 }
 </style>
 
